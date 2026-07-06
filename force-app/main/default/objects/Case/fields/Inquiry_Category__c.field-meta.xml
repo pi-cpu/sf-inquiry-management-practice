@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Category__c</fullName>
+    <label>問い合わせ種別</label>
+    <referenceTo>Inquiry_Category__c</referenceTo>
+    <relationshipLabel>ケース</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Handling_Requested__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>特別対応（補償）申請</label>
+    <type>Checkbox</type>
+</CustomField>

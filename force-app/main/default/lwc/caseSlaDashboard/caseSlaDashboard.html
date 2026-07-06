@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="問い合わせSLAダッシュボード" icon-name="standard:case">
+        <template if:true={cases.length}>
+            <lightning-datatable
+                key-field="Id"
+                data={cases}
+                columns={columns}
+                onrowaction={handleRowAction}
+                hide-checkbox-column
+            ></lightning-datatable>
+        </template>
+        <template if:false={cases.length}>
+            <div class="slds-p-around_medium slds-text-align_center">
+                <p>対応中の問い合わせはありません。</p>
+            </div>
+        </template>
+    </lightning-card>
+</template>

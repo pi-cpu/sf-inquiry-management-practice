@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>問い合わせ管理コンソール</label>
+    <formFactors>Large</formFactors>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Case_Sla_Dashboard_Page</tabs>
+    <tabs>standard-Case</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

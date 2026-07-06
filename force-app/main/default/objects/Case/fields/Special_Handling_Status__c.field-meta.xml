@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Handling_Status__c</fullName>
+    <label>特別対応ステータス</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>未申請</fullName>
+                <default>true</default>
+                <label>未申請</label>
+            </value>
+            <value>
+                <fullName>承認待ち</fullName>
+                <default>false</default>
+                <label>承認待ち</label>
+            </value>
+            <value>
+                <fullName>承認済み</fullName>
+                <default>false</default>
+                <label>承認済み</label>
+            </value>
+            <value>
+                <fullName>却下</fullName>
+                <default>false</default>
+                <label>却下</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
